@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
 }
@@ -12,12 +11,11 @@ section {
     padding-bottom: 60px;
 }
 
-/* Navbar */
+
 .navbar-brand {
     font-weight: bold;
 }
 
-/* Cards de servicios */
 .card {
     border: 2px solid #ddd;
     transition: transform 0.3s;
@@ -27,7 +25,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* Pie de página */
 footer a:hover {
     color: #ffc107;
 }
