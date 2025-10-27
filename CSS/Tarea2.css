@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h5 {
+    font-weight: 600;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Cards de servicios */
+.card {
+    border: 2px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Pie de página */
+footer a:hover {
+    color: #ffc107;
+}
+
+/* Formulario */
+#reservaForm input:focus {
+    border-color: #28a745;
+    box-shadow: none;
+}
